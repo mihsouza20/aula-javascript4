@@ -17,5 +17,5 @@ function naoOcultarElemento() {
 	document.getElementById("demo").style.display="block";
 }
 function Calcular() {
-	document.getElementById("demo").innerHTML = document.getElementById("num1").value * document.getElementById("num2").value;
+	var total = parseFloat(document.getElementById("num1").value) + parseFloat(document.getElementById("num2").value);
 }
